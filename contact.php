@@ -3,10 +3,10 @@
 // CONFIGURE FOR EVERYTHING
 
 // from email address
-$from = 'My contact form <pzljug@hotmail.com>';
+$from = 'My contact form <postmaster@clauser.ninja>';
 
 // the to email address
-$sendTo = 'Brian Clauser <pzljug@hotmail.com>';
+$sendTo = 'postmaster <postmaster@clauser.ninja>';
 
 // subject
 $subject = 'New Message from contact';
