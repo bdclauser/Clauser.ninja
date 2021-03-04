@@ -82,11 +82,11 @@
     <div class="content" id="main" style="padding-top:150px;">
         <img src="/images/portfolio/google/googlelogo_color_272x92dp.png" alt="google" class="center">
     </div>
-    <form method="GET">
+    <form onsubmit="duckSearch()" action="javascript:void(0)" method="GET">
         <div class="form-group">
 
 
-            <input maxlength="2048" name="q" type="search" class="cst-search">
+            <input maxlength="2048" name="q" id="searchField" type="search" class="cst-search">
             <input id="submit" value="Google Search" name="submit" type="submit">
         </div>
     </form>
@@ -131,6 +131,16 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script type="text/javascript">
+        function duckSearch() {
+            var searchField = document.getElementById("searchField");
+            if (searchField && searchField.value) {
+                var query = escape("site:jonbeebe.net " + searchField.value);
+                window.location.href = "https://duckduckgo.com/?q=" + query;
+            }
+        }
+    </script>
 </body>
 
 </html>
