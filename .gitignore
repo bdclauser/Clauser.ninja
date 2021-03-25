@@ -15,3 +15,5 @@ _site/
 ### VisualStudioCode Patch ###
 # Ignore all local history of files
 .history
+
+scratch.html
