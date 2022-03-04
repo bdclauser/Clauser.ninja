@@ -7,7 +7,7 @@ body {
     background: #f4f4f4;
 }
 
-html, h1, h2, h3, h4, h5, h6, a {
+html, h1, h2, h3, h4, h5, h6, a, body{
     font-family: 'Gowun Dodum', sans-serif;
 }
 
@@ -27,7 +27,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .nav-link:hover {
-    background: white;
+    background: #cbb26a;
     color: #131e2d;
 
 }
@@ -37,7 +37,11 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .navbar-toggler {
-    background: #fff !important;
+    background: white !important;
+}
+
+.navbar-brand a:hover {
+    color: #cbb26a;
 }
 
 /*header style*/
@@ -77,8 +81,8 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .description button {
-    border: 1px solid #131e2d;
-    background: #131e2d;
+    border: 1px solid #314e75;
+    background: #314e75;
     color: #fff;
 }
 
