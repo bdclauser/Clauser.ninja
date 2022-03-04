@@ -91,7 +91,7 @@ html, h1, h2, h3, h4, h5, h6, a, body{
     margin: 4em 0;
     padding: 1em;
     position: relative;
-    background: rgba(34, 54, 81, 0.1);
+    background: rgba(34, 54, 81, 0.31);
 }
 
 .about h1 {
