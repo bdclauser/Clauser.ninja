@@ -4,7 +4,6 @@
 body {
     padding: 0;
     margin: 0;
-
     background-color: #223651;
 }
 
@@ -89,10 +88,11 @@ html, h1, h2, h3, h4, h5, h6, a, body{
 }
 
 .about {
+    margin-top: 0px;
     margin: 4em 0;
     padding: 1em;
     position: relative;
-    background: rgba(34, 54, 81, 0.31);
+    background: #d39e00;
 }
 
 .about h1 {
@@ -108,18 +108,18 @@ html, h1, h2, h3, h4, h5, h6, a, body{
 
 .about span {
     display: block;
-    color: #223651;
+    color: #314e75;
     position: absolute;
     left: 115px;
 }
 
 .about .desc {
     padding: 2em;
-    border-left: 4px solid #10828C;
+    border-left: 4px solid #314e75;
 }
 
 .about .desc h3 {
-    color: #10828C;
+    color: #131e2d;
 }
 
 .about .desc p {
