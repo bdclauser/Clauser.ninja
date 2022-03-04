@@ -6,8 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 
 </head>
@@ -16,30 +18,35 @@
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="#">Home</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse " id="navbarSupportedContent">
             <ul class="navbar-nav mr-4">
                 <li class="nav-item">
-                    <a class="nav-link" data-value="about" href="#">About</a></li>
+                    <a class="nav-link" data-value="about" href="#">About</a>
+                </li>
                 <li class="nav-item">
                     <a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
                 </li>
-
                 <li class="nav-item">
-                    <a class="nav-link" data-value="contact" href="#">Contact</a></li>
+                    <a class="nav-link" data-value="contact" href="#">Contact</a>
+                </li>
                 <li class="nav-item">
-                    <a href="https://github.com/bdclauser" data-value="github" class="nav-link" class="nav-link" target="_blank">
+                    <a href="https://github.com/bdclauser" data-value="github" class="nav-link" class="nav-link"
+                        target="_blank">
                         <i class="fab fa-github" aria-hidden="true"></i></a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.linkedin.com/in/brian-clauser/" data-value="linkedin" class="nav-link" target="_blank">
+                    <a href="https://www.linkedin.com/in/brian-clauser/" data-value="linkedin" class="nav-link"
+                        target="_blank">
                         <i class="fab fa-linkedin" aria-hidden="true"></i>
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="https://www.facebook.com/brian.d.clauser/" data-value="facebook" class="nav-link" target="_blank">
+                    <a href="https://www.facebook.com/brian.d.clauser/" data-value="facebook" class="nav-link"
+                        target="_blank">
                         <i class="fab fa-facebook-square" aria-hidden="true"></i>
                     </a>
                 </li>
@@ -92,7 +99,8 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-4 col-sm-12">
                         <a href="images/portfolio/google/google-homepage.html">
-                            <img class=" img-fluid " src="/images/portfolio/google/google_clone.png " alt="Cloned Google Home Page ">
+                            <img class=" img-fluid " src="/images/portfolio/google/google_clone.png "
+                                alt="Cloned Google Home Page ">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 ">
@@ -188,33 +196,37 @@
 
 
     <!-- Contact form -->
-    <form action="http://formspree.io/pzljug@hotmail.com " id="contact-form " method="POST " role="form ">
-        <div class="contact-form " id="contact ">
-            <div class="container ">
-                <form>
-                    <div class="row ">
-                        <div class="col-lg-4 col-md-4 col-sm-12 ">
-                            <h2>Get in Touch</h2>
+    <div class="contact" id="contact">
+        <form action="http://formspree.io/pzljug@hotmail.com " id="contact-form " method="POST " role="form ">
+            <div class="contact-form " id="contact ">
+                <div class="container ">
+                    <form>
+                        <div class="row ">
+                            <div class="col-lg-4 col-md-4 col-sm-12 ">
+                                <h2>Get in Touch</h2>
+                            </div>
+                            <div class="col-lg-8 col-md-8 col-sm-12 right ">
+                                <div class="form-group ">
+                                    <input class="form-control form-control-lg " name="name " placeholder="Your Name "
+                                        type="text ">
+                                </div>
+                                <div class="form-group ">
+                                    <input class="form-control form-control-lg " name="email "
+                                        placeholder="YourEmail@email.com " type="email ">
+                                </div>
+                                <div class="form-group ">
+                                    <label>
+                                        <textarea class="form-control form-control-lg " name="notes "></textarea>
+                                    </label>
+                                </div>
+                                <input class="btn btn-secondary btn-block " name=" " type="submit " value="Send ">
+                            </div>
                         </div>
-                        <div class="col-lg-8 col-md-8 col-sm-12 right ">
-                            <div class="form-group ">
-                                <input class="form-control form-control-lg " name="name " placeholder="Your Name " type="text ">
-                            </div>
-                            <div class="form-group ">
-                                <input class="form-control form-control-lg " name="email " placeholder="YourEmail@email.com " type="email ">
-                            </div>
-                            <div class="form-group ">
-                                <label>
-                                    <textarea class="form-control form-control-lg " name="notes "></textarea>
-                                </label>
-                            </div>
-                            <input class="btn btn-secondary btn-block " name=" " type="submit " value="Send ">
-                        </div>
-                    </div>
-                </form>
+                    </form>
+                </div>
             </div>
-        </div>
-    </form>
+        </form>
+    </div>
     <!-- add Javasscript file from js file -->
     <script type="text/javascript " src="js/jquery.min.js "></script>
     <script type="text/javascript " src="js/bootstrap.min.js "></script>
