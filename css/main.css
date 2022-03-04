@@ -58,7 +58,7 @@ html, h1, h2, h3, h4, h5, h6, a, body{
     min-width: 100%;
     left: 0;
     top: 0;
-    background: #314e75;
+    background: rgba(244, 244, 244, 0.79);
 }
 
 .description {
