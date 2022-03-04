@@ -12,7 +12,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .navbar {
-    background: hsl(248, 19%, 24%);
+    background: #131e2d;
 
 }
 
@@ -28,7 +28,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 
 .nav-link:hover {
     background: white;
-    color: hsl(248, 19%, 24%);
+    color: #131e2d;
 
 }
 
@@ -54,7 +54,7 @@ html, h1, h2, h3, h4, h5, h6, a {
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(244, 244, 244, 0.79);
+    background: #314e75;
 }
 
 .description {
@@ -66,19 +66,19 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .description h1 {
-    color: hsl(248, 19%, 24%);
+    color: #131e2d;
 }
 
 .description p {
-    color: #666;
+    color: #223651;
     font-size: 20px;
     width: 60%;
     line-height: 1.5;
 }
 
 .description button {
-    border: 1px solid hsl(248, 19%, 24%);
-    background: hsl(248, 19%, 24%);
+    border: 1px solid #131e2d;
+    background: #131e2d;
     color: #fff;
 }
 
@@ -89,7 +89,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .about h1 {
-    color: hsl(248, 19%, 24%);
+    color: #131e2d;
     margin: 2em;
 }
 
@@ -101,7 +101,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 
 .about span {
     display: block;
-    color: #888;
+    color: #223651;
     position: absolute;
     left: 115px;
 }
@@ -117,7 +117,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 
 .about .desc p {
     line-height: 2;
-    color: #888;
+    color: #223651;
 }
 
 
@@ -128,7 +128,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .portfolio h1 {
-    color: hsl(248, 19%, 24%);
+    color: #131e2d;
     margin: 2em;
 }
 
@@ -148,7 +148,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .blog h1 {
-    color: hsl(248, 19%, 24%);
+    color: #131e2d;
     margin: 2em;
 }
 
@@ -162,7 +162,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .blog .card-title {
-    color: hsl(248, 19%, 24%);
+    color: #131e2d;
 
 }
 
@@ -177,7 +177,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .team h1 {
-    color: hsl(248, 19%, 24%);
+    color: #131e2d;
     margin: 2em;
 }
 
@@ -187,7 +187,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .team .des {
-    background: hsl(248, 19%, 24%);
+    background: #131e2d;
     color: #fff;
     text-align: center;
     border-top-right-radius: 93%;
@@ -201,7 +201,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 
 .team .item:hover .des {
     height: 100%;
-    background: hsl(248, 19%, 24%);
+    background: #131e2d;
     position: absolute;
     width: 89%;
     padding: 5em;
@@ -216,7 +216,7 @@ html, h1, h2, h3, h4, h5, h6, a {
 
 .contact-form h1 {
     padding: 2em 1px;
-    color: hsl(248, 19%, 24%);
+    color: #131e2d;
 }
 
 .contact-form .right {
@@ -224,12 +224,12 @@ html, h1, h2, h3, h4, h5, h6, a {
 }
 
 .contact-form .right .btn-secondary {
-    background: hsl(248, 19%, 24%);
+    background: #131e2d;
     color: #fff;
     border: 0;
 }
 
 .contact-form .right .form-control::placeholder {
-    color: #888;
+    color: #223651;
     font-size: 16px;
 }
