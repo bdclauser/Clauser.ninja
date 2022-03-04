@@ -31,6 +31,10 @@ html, h1, h2, h3, h4, h5, h6, a, body{
     color: #131e2d;
 
 }
+.navbar-brand a:hover{
+    background: #cbb26a;
+    color: #131e2d;
+}
 
 .navbar-collapse {
     justify-content: flex-end;
