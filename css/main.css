@@ -94,7 +94,10 @@ body {
 
 .about {
   margin: 0 0;
-  padding: 1em;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  padding-left: 1em;
+  padding-right: 1em;
   position: relative;
   background: #d39e00;
 }
