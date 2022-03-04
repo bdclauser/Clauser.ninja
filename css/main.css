@@ -57,6 +57,7 @@ body {
   background-image: url("../images/84530735.png");
   background-size: cover;
   background-position: center;
+  height: 100vh;
 }
 
 .overlay {
@@ -100,6 +101,7 @@ body {
   padding-right: 1em;
   position: relative;
   background: #d39e00;
+  height: 100vh;
 }
 
 .about h1 {
@@ -139,6 +141,7 @@ body {
   margin: 0 0;
   position: relative;
   background: #314e75;
+  height: 100vh;
 }
 
 .portfolio h1 {
@@ -157,6 +160,7 @@ body {
 .blog {
   margin: 0 0;
   position: relative;
+  height: 100vh;
 }
 
 .blog h1 {
