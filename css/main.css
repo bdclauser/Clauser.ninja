@@ -130,12 +130,14 @@ html, h1, h2, h3, h4, h5, h6, a, body{
 
 /*Portfolio*/
 .portfolio {
+    margin-top: 0px;
     margin: 4em 0;
     position: relative;
+background: #314e75;
 }
 
 .portfolio h1 {
-    color: #131e2d;
+    color: #be9e44;
     margin: 2em;
 }
 
