@@ -59,7 +59,7 @@ html, h1, h2, h3, h4, h5, h6, a, body{
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(244, 244, 244, 0.79);
+    background: rgba(244, 244, 244, 0.0005);
 }
 
 .description {
@@ -71,19 +71,19 @@ html, h1, h2, h3, h4, h5, h6, a, body{
 }
 
 .description h1 {
-    color: #131e2d;
+    color: #cbb26a;
 }
 
 .description p {
-    color: #223651;
+    color: #cbb26a;
     font-size: 20px;
     width: 60%;
     line-height: 1.5;
 }
 
 .description button {
-    border: 1px solid #314e75;
-    background: #314e75;
+    border: 1px solid #131e2d;
+    background: #131e2d;
     color: #fff;
 }
 
