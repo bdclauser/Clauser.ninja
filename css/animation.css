@@ -60,11 +60,11 @@ body {
 
 .handle {
     position: absolute;
-    right: 0;
-    top: 0;
+    right: -50%;
+    top: 40px;
     width: 160px;
     height: 180px;
-    border: 25px solid #000;
+    border: 25px solid #dcdcdc;
     border-left: 25px solid transparent;
     border-bottom: 25px solid transparent;
     border-radius: 50%;
