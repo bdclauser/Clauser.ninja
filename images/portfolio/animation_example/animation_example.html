@@ -5,16 +5,70 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="/css/main.css">    
     <link rel="stylesheet" type="text/css" href="/css/animation.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
+        integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+
+
     <title>Animation Example (Coffee Cup)</title>
 </head>
 
 <body>
-    <div class="container">
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <a class="navbar-brand" href="#">Home</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarSupportedContent">
+            <ul class="navbar-nav mr-4">
+                <li class="nav-item">
+                    <a class="nav-link" data-value="about" href="#">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-value="contact" href="#">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://github.com/bdclauser" data-value="github" class="nav-link" target="_blank">
+                        <i class="fab fa-github" aria-hidden="true"></i></a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://stackoverflow.com/users/18369883/pzljug" data-value="stackoverflow"
+                        class="nav-link" target="_blank"><i class="fab fa-stack-overflow"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/brian-clauser/" data-value="linkedin" class="nav-link"
+                        target="_blank">
+                        <i class="fab fa-linkedin" aria-hidden="true"></i>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.facebook.com/brian.d.clauser/" data-value="facebook" class="nav-link"
+                        target="_blank">
+                        <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+
+    
+    <div class="example_container">
         <div class="plate"></div>
-        <div class="cup">
+        <div class="cup"><a href="index.html">
             <div class="top">
                 <div class="vapour">
+                    
                     <span style="--i: 1"></span>
                     <span style="--i: 3"></span>
                     <span style="--i: 16"></span>
@@ -35,12 +89,14 @@
                     <span style="--i: 4"></span>
                     <span style="--i: 19"></span>
                     <span style="--i: 18"></span>
+                    
                 </div>
                 <div class="circle">
                     <div class="tea"></div>
                 </div>
             </div>
             <div class="handle"></div>
+            </a>
         </div>
     </div>
 </body>
