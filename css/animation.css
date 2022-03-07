@@ -23,7 +23,7 @@ body {
     height: 300px;
     background: linear-gradient(to right,#f9f9f9,#d9d9d9);
     border-bottom-left-radius: 45%;
-    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
 }
 
 .top {
@@ -45,4 +45,8 @@ body {
     background: linear-gradient(to left,#f9f9f9,#d9d9d9);
     border-radius: 50%;
     box-sizing: border-box;
+}
+
+.tea {
+    position: absolute;
 }
