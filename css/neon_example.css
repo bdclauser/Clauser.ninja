@@ -1,4 +1,4 @@
-body {
+.neon {
   margin: 0;
   padding: 0;
   display: flex;
@@ -9,7 +9,7 @@ body {
   font-family: consolas;
 }
 
-a {
+.neon a {
   position: relative;
   display: inline-block;
   padding: 15px 30px;
@@ -27,6 +27,7 @@ a:hover {
     background-color: #2196f3;
     box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
     transition-delay: 1s;
+    text-decoration: none;
 }
 
 a span {
