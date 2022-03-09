@@ -60,8 +60,9 @@
     </nav>
     <!-- header -->
 
-<header class="header">
-        <div class="overlay"></div><!--
+    <header class="header">
+        <div class="overlay"></div>
+        <!--
         <div class="container d-flex justify-content-center">
             <div class="description ">
                 <h1>Hello,<p>Welcome To My sidestreet on the information highway</p>
@@ -80,7 +81,7 @@
             <h2 class="text-center">About Me</h2>
             <div class="row">
                 <div class="col-lg-4 col-md-4 col-sm-12">
-                    <img src="images/team-3.jpg" class="img-fluid" alt="picture of proud father with daughter" >
+                    <img src="images/team-3.jpg" class="img-fluid" alt="picture of proud father with daughter">
                     <span class="text-center">Proud papa of this sweet little girl. Oh I make webpages and apps
                         too!</span>
                 </div>
@@ -114,19 +115,19 @@
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 ">
                         <a href="images/portfolio/smoke/smoke.html">
-                        <img class="img-fluid " src="images/portfolio/smoke/port1.gif ">
+                            <img class="img-fluid " src="images/portfolio/smoke/port1.gif ">
                         </a>
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 ">
                         <a href="images/portfolio/neon/neon.html">
-                        <img class="img-fluid " src="images/portfolio/neon/neon_screenshot.png"></a>
+                            <img class="img-fluid " src="images/portfolio/neon/neon_screenshot.png"></a>
                     </div>
 
                     <div class="col-lg-4 col-md-4 col-sm-12 ">
                         <a href="images/portfolio/animation_example/animation_example.html">
-                        <img class="img-fluid " src="images/portfolio/animation_example/hot coffee.png"></a>
+                            <img class="img-fluid " src="images/portfolio/animation_example/hot coffee.png"></a>
                     </div>
-                  <!--  <div class="col-lg-4 col-md-4 col-sm-12 ">
+                    <!--  <div class="col-lg-4 col-md-4 col-sm-12 ">
                         <img class="img-fluid " src="images/portfolio/port11.png ">
                     </div>
                     <div class="col-lg-4 col-md-4 col-sm-12 ">
@@ -210,45 +211,48 @@
 
     <!-- Contact form -->
     <div class="contact" id="contact">
-        <form action="https://formspree.io/f/xjvlrzgp" id="contact-form" method="POST" role="form" >
+        <form action="https://formspree.io/f/xjvlrzgp" id="contact-form" method="POST" role="form">
             <div class="contact-form " id="contact ">
                 <div class="container ">
 
-                        <div class="row ">
-                            <div class="col-lg-4 col-md-4 col-sm-12 ">
-                                <h2>Get in Touch</h2>
-                            </div>
-                            <div class="col-lg-8 col-md-8 col-sm-12 right ">
-                                <div class="form-group ">
-                                    <input class="form-control form-control-lg " name="name " placeholder="Your Name "
-                                        type="text ">
-                                </div>
-                                <div class="form-group ">
-                                    <input class="form-control form-control-lg " name="email "
-                                        placeholder="YourEmail@email.com " type="email ">
-                                </div>
-                                <div class="form-group ">
-                                    <label>
-                                        <textarea class="form-control form-control-lg " rows="3"
-                                            name="notes "></textarea>
-                                    </label>
-                                </div>
-                                <input class="btn btn-secondary btn-block " name=" " type="submit " value="Send " onclick="submitted()">
-                            </div>
+                    <div class="row ">
+                        <div class="col-lg-4 col-md-4 col-sm-12 ">
+                            <h2>Get in Touch</h2>
                         </div>
+                        <div class="col-lg-8 col-md-8 col-sm-12 right ">
+                            <div class="form-group ">
+                                <input class="form-control form-control-lg " name="name " placeholder="Your Name "
+                                    type="text ">
+                            </div>
+                            <div class="form-group ">
+                                <input class="form-control form-control-lg " name="email "
+                                    placeholder="YourEmail@email.com " type="email ">
+                            </div>
+                            <div class="form-group ">
+                                <label>
+                                    <textarea class="form-control form-control-lg " rows="3" name="notes "></textarea>
+                                </label>
+                            </div>
+                            <input class="btn btn-secondary btn-block " name=" " type="submit " value="Send "
+                                onclick="submitted()">
+                        </div>
+                    </div>
 
                 </div>
             </div>
         </form>
-        <script>
-            window.onbeforeunload = () => {
-  for(const form of document.getElementsByTagName('form')) {
-    form.reset();
-  }
-}
-        </script>
+
 
     </div>
+    <script>
+        function submitted() {
+        window.onbeforeunload = () => {
+            for (const form of document.getElementsByTagName('form')) {
+                form.reset();
+            }
+        }
+    }
+    </script>
     <!-- add Javasscript file from js file -->
     <script type="text/javascript " src="js/jquery.min.js "></script>
     <script type="text/javascript " src="js/bootstrap.min.js "></script>
