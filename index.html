@@ -240,13 +240,20 @@
                 </div>
             </div>
         </form>
+        <script>
+            window.onbeforeunload = () => {
+  for(const form of document.getElementsByTagName('form')) {
+    form.reset();
+  }
+}
+        </script>
 
     </div>
     <!-- add Javasscript file from js file -->
     <script type="text/javascript " src="js/jquery.min.js "></script>
     <script type="text/javascript " src="js/bootstrap.min.js "></script>
     <script type="text/javascript " src='js/main.js'></script>
-    <script type="text/javascript " src="js/mail.js"></script>
+
 
 
 </body>
