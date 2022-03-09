@@ -1,4 +1,4 @@
-(function() {
+(function submitted() {
     'use strict';
     window.addEventListener('load', function() {
         var form = document.getElementsByTagName('form')
