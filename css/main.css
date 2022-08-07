@@ -1,234 +1,248 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
 
 body {
-    padding: 0;
-    margin: 0;
-    background: #f4f4f4;
+  padding: 0;
+  margin: 0;
+  background-color: #223651;
 }
 
-html, h1, h2, h3, h4, h5, h6, a {
-    font-family: "Raleway", serif;
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+body {
+  font-family: "Gowun Dodum", sans-serif;
 }
 
 .navbar {
-    background: hsl(248, 19%, 24%);
+  background: #131e2d;
 
 }
 
-.nav-link, .navbar-brand {
-    color: white;
-    cursor: pointer;
+.nav-link,
+.navbar-brand {
+  color: white;
+  cursor: pointer;
 }
 
 .nav-link {
-    margin-right: 1em !important;
-    color: white;
+  margin-right: 1em !important;
+  color: white;
 }
 
 .nav-link:hover {
-    background: white;
-    color: hsl(248, 19%, 24%);
-
+  background: #cbb26a;
+  color: #131e2d;
+}
+.navbar-brand:hover a:hover {
+  background: #cbb26a;
+  color: #131e2d;
 }
 
 .navbar-collapse {
-    justify-content: flex-end;
+  justify-content: flex-end;
 }
 
 .navbar-toggler {
-    background: #fff !important;
+  background: white !important;
 }
 
 /*header style*/
 .header {
-    position: relative;
-    background-image: url('../images/business-coffee-computer-374006.jpg');
-    background-size: cover;
-    background-position: center;
+  position: relative;
+  background-image: url("../images/84530735.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
 }
 
 .overlay {
-    position: absolute;
-    min-height: 100%;
-    min-width: 100%;
-    left: 0;
-    top: 0;
-    background: rgba(244, 244, 244, 0.79);
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(244, 244, 244, 0);
 }
 
 .description {
-    position: absolute;
-    top: 30%;
-    margin: auto;
-    padding: 2em;
-
+  position: absolute;
+  top: 79%;
+  margin: auto;
+  padding: 2em;
 }
 
 .description h1 {
-    color: hsl(248, 19%, 24%);
+  color: #cbb26a;
 }
 
 .description p {
-    color: #666;
-    font-size: 20px;
-    width: 60%;
-    line-height: 1.5;
+  color: #be9e44;
+  font-size: 20px;
+  width: 60%;
+  line-height: 1.5;
 }
 
 .description button {
-    border: 1px solid hsl(248, 19%, 24%);
-    background: hsl(248, 19%, 24%);
-    color: #fff;
+  border: 1px solid #131e2d;
+  background: #131e2d;
+  color: #be9e44;
 }
 
 .about {
-    margin: 4em 0;
-    padding: 1em;
-    position: relative;
+  margin: 0 0;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  padding-left: 1em;
+  padding-right: 1em;
+  position: relative;
+  background: #d39e00;
+  height: 100vh;
 }
 
 .about h1 {
-    color: hsl(248, 19%, 24%);
-    margin: 2em;
+  color: #131e2d;
+  margin: 2em;
 }
 
 .about img {
-    height: 100%;
-    width: 100%;
-    border-radius: 50%
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
 }
 
 .about span {
-    display: block;
-    color: #888;
-    position: absolute;
-    left: 115px;
+  display: block;
+  color: #314e75;
+  position: absolute;
+  left: 115px;
 }
 
 .about .desc {
-    padding: 2em;
-    border-left: 4px solid #10828C;
+  padding: 2em;
+  border-left: 4px solid #314e75;
 }
 
 .about .desc h3 {
-    color: #10828C;
+  color: #131e2d;
 }
 
 .about .desc p {
-    line-height: 2;
-    color: #888;
+  line-height: 2;
+  color: #223651;
 }
-
 
 /*Portfolio*/
 .portfolio {
-    margin: 4em 0;
-    position: relative;
+  margin: 0 0;
+  position: relative;
+  background: #314e75;
+  height: 100vh;
 }
 
 .portfolio h1 {
-    color: hsl(248, 19%, 24%);
-    margin: 2em;
+  color: #be9e44;
+  margin: 2em;
 }
 
 .portfolio img {
-    height: 15rem;
-    width: 100%;
-    margin: 1em;
-
-
+  height: 15rem;
+  width: 100%;
+  margin: 1em;
 }
 
 /*blog style*/
 
 .blog {
-    margin: 4em 0;
-    position: relative;
+  margin: 0 0;
+  position: relative;
+  height: 100vh;
 }
 
 .blog h1 {
-    color: hsl(248, 19%, 24%);
-    margin: 2em;
+  color: #131e2d;
+  margin: 2em;
 }
 
 .blog .card {
-    box-shadow: 0 0 20px #ccc;
+  box-shadow: 0 0 20px #ccc;
 }
 
 .blog .card img {
-    width: 100%;
-    height: 12em;
+  width: 100%;
+  height: 12em;
 }
 
 .blog .card-title {
-    color: hsl(248, 19%, 24%);
-
+  color: #131e2d;
 }
 
 .blog .card-body {
-    padding: 1em;
+  padding: 1em;
 }
 
 .team {
-    margin: 4em 0;
-    position: relative;
-
+  margin: 4em 0;
+  position: relative;
 }
 
 .team h1 {
-    color: hsl(248, 19%, 24%);
-    margin: 2em;
+  color: #131e2d;
+  margin: 2em;
 }
 
 .team .item {
-    position: relative;
-    overflow: hidden;
+  position: relative;
+  overflow: hidden;
 }
 
 .team .des {
-    background: hsl(248, 19%, 24%);
-    color: #fff;
-    text-align: center;
-    border-top-right-radius: 93%;
-    transition: .3s ease-in-out;
-    position: absolute;
-    width: 88%;
-    bottom: 24px;
-
-
+  background: #131e2d;
+  color: #fff;
+  text-align: center;
+  border-top-right-radius: 93%;
+  transition: 0.3s ease-in-out;
+  position: absolute;
+  width: 88%;
+  bottom: 24px;
 }
 
 .team .item:hover .des {
-    height: 100%;
-    background: hsl(248, 19%, 24%);
-    position: absolute;
-    width: 89%;
-    padding: 5em;
-    top: 0;
-    border-top-right-radius: 0;
+  height: 100%;
+  background: #131e2d;
+  position: absolute;
+  width: 89%;
+  padding: 5em;
+  top: 0;
+  border-top-right-radius: 0;
 }
 
 .contact-form {
-    margin: 6em 0;
-    position: relative;
+  margin: 6em 0;
+  position: relative;
 }
 
 .contact-form h1 {
-    padding: 2em 1px;
-    color: hsl(248, 19%, 24%);
+  padding: 2em 1px;
+  color: #131e2d;
 }
 
 .contact-form .right {
-    max-width: 600px;
+  max-width: 600px;
 }
 
 .contact-form .right .btn-secondary {
-    background: hsl(248, 19%, 24%);
-    color: #fff;
-    border: 0;
+  background: #131e2d;
+  color: #fff;
+  border: 0;
 }
 
 .contact-form .right .form-control::placeholder {
-    color: #888;
-    font-size: 16px;
+  color: #223651;
+  font-size: 16px;
 }
