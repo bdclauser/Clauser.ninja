@@ -119,8 +119,7 @@ body {
 .about span {
   display: block;
   position: absolute;
-  left: 115px;
-
+  padding-top: 1rem;
 }
 
 .about .desc {
