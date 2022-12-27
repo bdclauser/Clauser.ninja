@@ -10,7 +10,7 @@
 # Ignore all local history of files
 .history
 
-scratch.html
+scratch*.html
 scratch.*
 
 ### Jekyll ###
