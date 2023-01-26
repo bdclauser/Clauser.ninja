@@ -94,6 +94,7 @@
 
   .gs_alert {
     font-size: 18px;
+    position: relative;
   }
 
   #gs_wrapper a.title_link:before {
