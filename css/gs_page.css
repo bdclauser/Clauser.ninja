@@ -1,6 +1,4 @@
- .work-wrapper{
-    margin: 50px 40px;
-  }
+
   .parallax {
     /* this is for that fixed back ground while scrolling if we want it */
     background-image: url("https://acemapp.org/file-manager/get/hWQlc5BsFx0x63ced67882b97");
@@ -11,7 +9,9 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
- 
+  .work-wrapper{
+    margin: 50px 40px;
+  }
   .gs_panel {
     margin-bottom: 2rem;
   }
