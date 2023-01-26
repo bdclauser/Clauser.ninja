@@ -1,0 +1,140 @@
+ .work-wrapper{
+    margin: 50px 40px;
+  }
+  .parallax {
+    /* this is for that fixed back ground while scrolling if we want it */
+    background-image: url("https://acemapp.org/file-manager/get/hWQlc5BsFx0x63ced67882b97");
+
+    /* Creates the scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+ 
+  .gs_panel {
+    margin-bottom: 2rem;
+  }
+
+  #gs_wrapper {
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+    /*     background: rgb(238, 37, 92);
+    background: -moz-linear-gradient(133deg,
+        rgba(238, 37, 92, 1) 15%,
+        rgba(23, 24, 94, 1) 75%);
+    background: -webkit-linear-gradient(133deg,
+        rgba(238, 37, 92, 1) 15%,
+        rgba(23, 24, 94, 1) 75%);
+    background: linear-gradient(133deg,
+        rgba(238, 37, 92, 1) 15%,
+        rgba(23, 24, 94, 1) 75%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ee255c", endColorstr="#17185e", GradientType=1);
+    */
+  }
+
+  .ace_no_doc {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  #gs_wrapper h2 {
+    color: black;
+  }
+
+  #gs_wrapper footer {
+    padding-left: 1rem;
+    color: black;
+  }
+
+  #gs_wrapper footer a {
+    font-weight: bolder;
+    color: blue;
+  }
+
+  #gs_wrapper h2 small {
+    color: black;
+    padding-left: 1rem;
+  }
+
+  .gs_p {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  /*need to do a media for phone @ 4vw */
+  @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+    #gs_wrapper h3,
+    #gs_wrapper .panel-title,
+    #gs_wrapper .gs_title {
+      font-size: 4.15vw;
+    }
+
+    #gs_wrapper h2 {
+      font-size: 6vw;
+    }
+
+    .gs_p {
+      font-size: 4vw;
+    }
+  }
+
+  .gs_li {
+    font-size: 20px;
+    min-height: 32px;
+    padding: 10px 0 10px 40px;
+  }
+
+  #gs_wrapper ul li::marker {
+    font-family: "FontAwesome";
+    font-weight: 900;
+    content: "\f054";
+  }
+
+  .gs_alert {
+    font-size: 18px;
+  }
+
+  #gs_wrapper a.title_link:before {
+    font-family: "FontAwesome";
+    font-weight: 400;
+    content: "\f0a4";
+    padding-right: 1rem;
+  }
+
+  .gs_video_box {
+    position: relative;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    margin-left: 20px;
+    margin-bottom: 1em;
+    background-color: rgb(23, 24, 94, 1);
+    overflow: hidden;
+    border-radius: 5px;
+  }
+
+  .gs_video_box video {
+    width: 100%;
+    height: auto;
+  }
+
+  .float-right {
+    float: right;
+    width: 640px;
+  }
+
+  @media screen and (max-width: 428px) {
+    .gs_video_box {
+      width: 248px;
+      float: none;
+      margin-left: unset;
+    }
+
+    .gs_video_box video {
+      width: 100%;
+      height: auto;
+    }
+  }
+
