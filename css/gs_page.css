@@ -106,7 +106,7 @@
   .gs_video_box {
     position: relative;
     width: 100%;
-    border-width: 1px;
+    border-width: 2px;
     border-style: solid;
     margin-left: 20px;
     margin-bottom: 1em;
@@ -123,6 +123,10 @@
   .float-right {
     float: right;
     width: 640px;
+  }
+
+  #gs_wrapper footer p {
+    color: #fff;
   }
 
   @media screen and (max-width: 428px) {
