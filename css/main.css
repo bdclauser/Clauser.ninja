@@ -166,13 +166,31 @@ body {
 
 .blog {
   margin: 0 0;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  padding-left: 1em;
+  padding-right: 1em;
   position: relative;
   height: 100vh;
+  background-color: #85FFBD;
+  background-image: linear-gradient(45deg, #85FFBD 0%, #ffffff 99%, #FFFB7D 100%);
+  
 }
 
 .blog h1 {
   color: #131e2d;
   margin: 2em;
+}
+
+.blog .desc {
+  font-size: 72px;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(122,0,82,1) 50%, rgba(0,212,255,1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .blog .card {
