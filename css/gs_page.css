@@ -45,7 +45,8 @@
 
   #gs_wrapper h2 {
     color: black;
-    font-size: 22px;
+    font-size: 34px;
+    font-weight: 500;
   }
 
   #gs_wrapper footer {
