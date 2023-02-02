@@ -9,5 +9,9 @@ $(document).ready(function(){
     })
 
 })
-const year = document.querySelector('#current-year')
-year.innerHTML = new Date().getFullYear()
+
+$(document).addEventListener('DOMContentLoaded', function() {
+    var date = new Date();
+    var year = date.getFullYear();
+    document.getElementById("current-year").innerHTML = year;
+});
