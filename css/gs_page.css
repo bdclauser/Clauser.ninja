@@ -1,4 +1,5 @@
 
+
   .parallax {
     /* this is for that fixed back ground while scrolling if we want it */
     background-image: url("https://acemapp.org/file-manager/get/hWQlc5BsFx0x63ced67882b97");
@@ -9,6 +10,9 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+.navbar {
+  font-size: large;
+}
   .work-wrapper{
     margin: 50px 40px;
   }
@@ -17,7 +21,7 @@
   }
 
   #gs_wrapper {
-    margin-top: 0px;
+    margin-top: 4em;
     margin-bottom: 0px;
 
     /*     background: rgb(238, 37, 92);
@@ -41,6 +45,7 @@
 
   #gs_wrapper h2 {
     color: black;
+    font-size: 22px;
   }
 
   #gs_wrapper footer {
@@ -58,9 +63,13 @@
     padding-left: 1rem;
   }
 
+  #gs_wrapper h3 {
+    font-size: 19px;
+  }
+
   .gs_p {
-    font-size: 20px;
-    line-height: 25px;
+    font-size: 18px;
+    line-height: 20px;
   }
 
   /*need to do a media for phone @ 4vw */
@@ -81,7 +90,7 @@
   }
 
   .gs_li {
-    font-size: 20px;
+    font-size: 18px;
     min-height: 32px;
     padding: 10px 0 10px 40px;
   }
@@ -143,3 +152,6 @@
     }
   }
 
+  footer {
+    font-size: 14px;
+  }

@@ -28,6 +28,7 @@ body {
 .navbar-brand {
   color: white;
   cursor: pointer;
+  font-size: 1em;
 }
 
 .nav-link {
