@@ -93,6 +93,7 @@ body {
   border-radius: 50%;
   background: linear-gradient(to left, #f9f9f9, #e7e7e7);
 }
+
 .plate::after {
   content: "";
   position: absolute;
@@ -136,15 +137,19 @@ body {
     transform: translateY(0) scaleX(1);
     opacity: 0;
   }
+
   15% {
     opacity: 1;
   }
+
   50% {
     transform: translateY(-150px) scaleX(5);
   }
+
   95% {
     opacity: 0;
   }
+
   100% {
     transform: translateY(-300px) scaleX(10);
   }

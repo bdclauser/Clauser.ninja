@@ -53,6 +53,7 @@ h1 span {
     transform: rotateY(90deg);
     filter: blur(10px);
   }
+
   100% {
     opacity: 1;
     transform: rotateY(0deg);
@@ -69,22 +70,27 @@ h1 span:nth-child(2) {
   opacity: 0;
   animation-delay: 2.5s;
 }
+
 h1 span:nth-child(3) {
   opacity: 0;
   animation-delay: 2.75s;
 }
+
 h1 span:nth-child(4) {
   opacity: 0;
   animation-delay: 3s;
 }
+
 h1 span:nth-child(5) {
   opacity: 0;
   animation-delay: 3.5s;
 }
+
 h1 span:nth-child(6) {
   opacity: 0;
   animation-delay: 3.75s;
 }
+
 h1 span:nth-child(7) {
   opacity: 0;
   animation-delay: 4s;
