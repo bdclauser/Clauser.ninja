@@ -11,8 +11,8 @@ $(document).ready(function () {
   });
 });
 
-(document).addEventListener("DOMContentLoaded", function () {
-  var date = new Date();
-  var year = date.getFullYear();
+document.addEventListener("DOMContentLoaded", function () {
+  let date = new Date();
+  let year = date.getFullYear();
   document.getElementById("current-year").innerHTML = year;
 });

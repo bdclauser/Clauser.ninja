@@ -97,10 +97,7 @@ body {
 
 .about {
   margin: 0 0;
-  padding-top: 6em;
-  padding-bottom: 6em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 6em 1em;
   position: relative;
   background: #FABB00;
   height: 100vh;
@@ -140,10 +137,7 @@ body {
 /*Portfolio*/
 .portfolio {
   margin: 0 0;
-  padding-top: 6em;
-  padding-bottom: 6em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 6em 1em;
   position: relative;
   background: linear-gradient(to right, #000428 0%, #004e92 100%);
   height: 100vh;
@@ -167,10 +161,7 @@ body {
 
 .blog {
   margin: 0 0;
-  padding-top: 6em;
-  padding-bottom: 6em;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding: 6em 1em;
   position: relative;
   height: 100vh;
   background-color: #85FFBD;
