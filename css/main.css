@@ -21,7 +21,6 @@ body {
 
 .navbar {
   background: #131e2d;
-
 }
 
 .nav-link,
@@ -99,7 +98,7 @@ body {
   margin: 0 0;
   padding: 6em 1em;
   position: relative;
-  background: #FABB00;
+  background: #fabb00;
   height: 100vh;
 }
 
@@ -143,11 +142,12 @@ body {
   height: 100vh;
 }
 
-.portfolio h1, h2{
+.portfolio h1,
+h2 {
   color: #f2f2f2;
   margin: 2em;
 }
-.portfolio h2{
+.portfolio h2 {
   color: white;
 }
 
@@ -164,9 +164,13 @@ body {
   padding: 6em 1em;
   position: relative;
   height: 100vh;
-  background-color: #85FFBD;
-  background-image: linear-gradient(45deg, #85FFBD 0%, #ffffff 99%, #FFFB7D 100%);
-  
+  background-color: #85ffbd;
+  background-image: linear-gradient(
+    45deg,
+    #85ffbd 0%,
+    #ffffff 99%,
+    #fffb7d 100%
+  );
 }
 
 .blog h1 {
@@ -178,8 +182,13 @@ body {
   font-size: 72px;
   margin-bottom: 2rem;
   padding-bottom: 2rem;
-  background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(122,0,82,1) 50%, rgba(0,212,255,1) 100%); 
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(122, 0, 82, 1) 50%,
+    rgba(0, 212, 255, 1) 100%
+  );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -262,13 +271,13 @@ body {
   color: #223651;
   font-size: 16px;
 }
-.sr-only{
+.sr-only {
   position: absolute;
   width: 1px;
   height: 1px;
   padding: 0;
   margin: -1px;
   overflow: hidden;
-  clip: rect(0,0,0,0);
+  clip: rect(0, 0, 0, 0);
   border: 0;
 }
