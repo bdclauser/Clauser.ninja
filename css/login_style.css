@@ -1,250 +1,250 @@
 body {
-    margin: 0;
-    padding: 0;
-    background: url(/images/portfolio/login_example/bg.jpg);
-    background-size: cover;
-    font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(/images/portfolio/login_example/bg.jpg);
+  background-size: cover;
+  font-family: sans-serif;
 }
 
 .loginBox {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    width: 350px;
-    height: 420px;
-    padding: 80px 40px;
-    box-sizing: border-box;
-    background: rgba(0, 0, 0, .5)
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 420px;
+  padding: 80px 40px;
+  box-sizing: border-box;
+  background: rgba(0, 0, 0, 0.5);
 }
 
 .user {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    overflow: hidden;
-    position: absolute;
-    top: calc(-100px/2);
-    left: calc(50% - 50px);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: calc(-100px / 2);
+  left: calc(50% - 50px);
 }
 
 h2 {
-    margin: 0;
-    padding: 0 0 20px;
-    color: #efed40;
-    text-align: center;
+  margin: 0;
+  padding: 0 0 20px;
+  color: #efed40;
+  text-align: center;
 }
 
 .loginBox p {
-    margin: 0;
-    padding: 0;
-    font-weight: bold;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  color: #fff;
 }
 
 .loginBox input {
-    width: 100%;
-    margin-bottom: 20px;
+  width: 100%;
+  margin-bottom: 20px;
 }
 
 .loginBox input[type="text"],
 .loginBox input[type="password"] {
-    border: none;
-    border-bottom: 1px solid #fff;
-    background: transparent;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
 }
 
 ::placeholder {
-    color: rgba(255, 255, 255, .5);
+  color: rgba(255, 255, 255, 0.5);
 }
 
 .loginBox input[type="submit"] {
-    border: none;
-    outline: none;
-    height: 40px;
-    color: #fff;
-    font-size: 16px;
-    background: #ff276e;
-    cursor: pointer;
-    border-radius: 20px;
+  border: none;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 16px;
+  background: #ff276e;
+  cursor: pointer;
+  border-radius: 20px;
 }
 
 .loginBox input[type="submit"]:hover {
-    background: #efed40;
-    color: #262626;
+  background: #efed40;
+  color: #262626;
 }
 
 .loginBox a {
-    color: #fff;
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
 }
 
 section {
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 40px 0;
-    min-height: 100vh;
-    background: #350048;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  min-height: 100vh;
+  background: #350048;
 }
 
 section::before {
-    content: '';
-    position: absolute;
-    top: 45%;
-    left: 0;
-    width: 100%;
-    height: 50px;
-    background: #bd00ff;
+  content: "";
+  position: absolute;
+  top: 45%;
+  left: 0;
+  width: 100%;
+  height: 50px;
+  background: #bd00ff;
 }
 
 .container {
-    width: 900px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  width: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .container .card {
-    position: relative;
-    width: 250px;
-    height: 300px;
-    text-align: center;
-    z-index: 10;
-    margin: 20px 20px 60px;
+  position: relative;
+  width: 250px;
+  height: 300px;
+  text-align: center;
+  z-index: 10;
+  margin: 20px 20px 60px;
 }
 
 .card .box {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: rgba(255, 255, 255, 0.05);
-    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
-    backdrop-filter: blur(15px);
-    border: 1px solid rgba(255, 255, 255, .1);
-    z-index: 10;
-    border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.05);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(15px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  z-index: 10;
+  border-radius: 10px;
 }
 
 .percent {
-    position: absolute;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    z-index: 100;
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  z-index: 100;
 }
 
 .percent .number {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .percent .number h2 {
-    color: #fff;
-    font-weight: 700;
-    font-size: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 50px;
 }
 
 .percent .number h2 span {
-    font-size: 24px;
+  font-size: 24px;
 }
 
 .text {
-    position: absolute;
-    bottom: -42px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    padding: 30px 20px 10px;
-    background: #f00;
-    border-radius: 10px;
-    font-weight: 800;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    pointer-events: none;
-    transition: bottom 0.5s, z-index 0s, transform 0.5s, padding 0.5s;
-    transition-delay: 0.5s, 0.5s, 0s, 0.5s;
-    color: #fff;
+  position: absolute;
+  bottom: -42px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  padding: 30px 20px 10px;
+  background: #f00;
+  border-radius: 10px;
+  font-weight: 800;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  pointer-events: none;
+  transition: bottom 0.5s, z-index 0s, transform 0.5s, padding 0.5s;
+  transition-delay: 0.5s, 0.5s, 0s, 0.5s;
+  color: #fff;
 }
 
 .card:hover .text {
-    transition-delay: 0s, 0.5s, 0.5s, 0.5s;
-    bottom: -70px;
-    z-index: 11;
-    transform: translateX(-50px) translateY(-50px);
-    padding: 10px 20px 10px;
+  transition-delay: 0s, 0.5s, 0.5s, 0.5s;
+  bottom: -70px;
+  z-index: 11;
+  transform: translateX(-50px) translateY(-50px);
+  padding: 10px 20px 10px;
 }
 
 .card:nth-child(1) .text {
-    background: #ff0461;
+  background: #ff0461;
 }
 
 .card:nth-child(2) .text {
-    background: #2bd2ff;
+  background: #2bd2ff;
 }
 
 .card:nth-child(3) .text {
-    background: #18d539;
+  background: #18d539;
 }
 
 svg {
-    position: relative;
-    width: 150px;
-    height: 150px;
+  position: relative;
+  width: 150px;
+  height: 150px;
 }
 
 svg circle {
-    width: 100%;
-    height: 100%;
-    fill: none;
-    stroke-width: 10;
-    stroke: rgba(255, 255, 255, .05);
-    transform: translate(5px, 5px);
-    stroke-linecap: round;
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke-width: 10;
+  stroke: rgba(255, 255, 255, 0.05);
+  transform: translate(5px, 5px);
+  stroke-linecap: round;
 }
 
 svg circle:nth-child(2) {
-    stroke: #fff;
-    stroke-dasharray: 440px;
-    stroke-dashoffset: 440px;
+  stroke: #fff;
+  stroke-dasharray: 440px;
+  stroke-dashoffset: 440px;
 }
 
 .card:nth-child(1) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440px - (440px * 90) / 100);
+  stroke-dashoffset: calc(440px - (440px * 90) / 100);
 }
 
 .card:nth-child(2) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440px - (440px * 82) / 100);
+  stroke-dashoffset: calc(440px - (440px * 82) / 100);
 }
 
 .card:nth-child(3) svg circle:nth-child(2) {
-    stroke-dashoffset: calc(440px - (440px * 65) / 100);
+  stroke-dashoffset: calc(440px - (440px * 65) / 100);
 }
