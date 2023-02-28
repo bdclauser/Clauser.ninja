@@ -8,12 +8,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .navbar {
   font-size: large;
 }
+
 .work-wrapper {
   margin: 50px 40px;
 }
+
 .gs_panel {
   margin-bottom: 2rem;
 }
@@ -71,7 +74,7 @@
   line-height: 20px;
 }
 
-/*need to do a media for phone @ 4vw */
+/* need to do a media for phone @ 4vw */
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
   #gs_wrapper h3,
   #gs_wrapper .panel-title,
@@ -105,7 +108,7 @@
   position: relative;
 }
 
-#gs_wrapper a.title_link:before {
+#gs_wrapper a.title_link::before {
   font-family: "FontAwesome";
   font-weight: 400;
   content: "\f0a4";
@@ -134,6 +137,10 @@
   width: 640px;
 }
 
+footer {
+  font-size: 14px;
+}
+
 #gs_wrapper footer p {
   color: #fff;
 }
@@ -149,8 +156,4 @@
     width: 100%;
     height: auto;
   }
-}
-
-footer {
-  font-size: 14px;
 }

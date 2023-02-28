@@ -86,6 +86,7 @@ h2 {
 }
 
 @import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -139,10 +140,11 @@ section::before {
   align-items: center;
   background: rgba(255, 255, 255, 0.05);
   box-shadow: 0 15px 35px rgba(0, 0, 0, 0.5);
-  backdrop-filter: blur(15px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   z-index: 10;
   border-radius: 10px;
+  -webkit-background-filter: blur(15px);
+  backdrop-filter: blur(15px);
 }
 
 .percent {

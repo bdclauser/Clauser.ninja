@@ -6,7 +6,7 @@
   align-items: center;
   min-height: 100vh;
   background: #031321;
-  font-family: consolas;
+  font-family: consolas, sans-serif;
 }
 
 .neon a {
@@ -34,6 +34,7 @@ a span {
   position: absolute;
   display: block;
 }
+
 a span:nth-child(1) {
   top: 0;
   left: -100%;

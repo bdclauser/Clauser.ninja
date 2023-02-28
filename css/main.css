@@ -39,6 +39,7 @@ body {
   background: #cbb26a;
   color: #131e2d;
 }
+
 .navbar-brand:hover a:hover {
   background: #cbb26a;
   color: #131e2d;
@@ -52,7 +53,7 @@ body {
   background: white !important;
 }
 
-/*header style*/
+/* header style */
 .header {
   position: relative;
   background-image: url("../images/84530735.png");
@@ -133,7 +134,7 @@ body {
   color: #223651;
 }
 
-/*Portfolio*/
+/* Portfolio */
 .portfolio {
   margin: 0 0;
   padding: 6em 1em;
@@ -147,6 +148,7 @@ h2 {
   color: #f2f2f2;
   margin: 2em;
 }
+
 .portfolio h2 {
   color: white;
 }
@@ -157,7 +159,7 @@ h2 {
   margin: 1em;
 }
 
-/*blog style*/
+/* blog style */
 
 .blog {
   margin: 0 0;
@@ -168,7 +170,7 @@ h2 {
   background-image: linear-gradient(
     45deg,
     #85ffbd 0%,
-    #ffffff 99%,
+    #fff 99%,
     #fffb7d 100%
   );
 }
@@ -271,6 +273,7 @@ h2 {
   color: #223651;
   font-size: 16px;
 }
+
 .sr-only {
   position: absolute;
   width: 1px;
