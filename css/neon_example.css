@@ -89,3 +89,7 @@ a:hover span:nth-child(4) {
   transition: 1s;
   transition-delay: 0.75s;
 }
+
+.nav-link:hover {
+  background: #2196f3;
+}

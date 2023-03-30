@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Login</title>
     <link rel="stylesheet" href="/css/login_style.css">
 </head>
 
 <body>
     <div class="loginBox">
-        <img src="/images/portfolio/login_example/user.png" class="user">
+        <img src="/images/portfolio/login_example/user.png" class="user" alt="User icon">
         <h2>Log In Here</h2>
-        <form>
+        <form action="login.php" method="post">
             <p>Email</p>
-            <input type="text" placeholder="Enter Email">
+            <input type="email" name="email" placeholder="Enter Email" required>
             <p>Password</p>
-            <input type="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;">
-
-            <button type="submit" class="btn btn-primary" value="Sign In">Submit</button>
+            <input type="password" name="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;" required>
+            <button type="submit" class="btn btn-primary">Submit</button>
 
             <a href="#">Forgot Password</a>
 
