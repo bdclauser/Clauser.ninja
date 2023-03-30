@@ -12,25 +12,57 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
-        <style>
-            .parallax {
-                background-image: url("/images/portfolio/curriculum/blackboard.jpg");
-                min-height: 500px;
-                background-attachment: fixed;
-                background-position: center;
-                background-repeat: no-repeat;
-                background-size: cover;
-            }
-            body {
+    <style>
+        html,
+        body {
+            height: 100%;
+        }
 
-                background: whitesmoke;
-            }
-            
-        </style>
+        body {
+            margin: 0;
+            background-color: transparent;
+        }
+
+
+        h1,
+        h2,
+        h3,
+        ul,
+        li {
+            color: black;
+        }
+
+        li::marker {
+            font-size: 1.8rem;
+        }
+
+        ol {
+            margin-left: 2rem;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+         }
+         .flex-item {
+            background-color: #f1f1f1;
+            padding: 20px;
+            margin: 10px;
+            text-align: left;
+            flex: 1;
+         }
+         .checked {
+            background-color: #888;
+            color: white;
+            text-decoration: line-through;
+         }
+
+    </style>
     <title>Groovy and Katalon Curriculum</title>
 </head>
 
 <body>
+
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="https://clauser.ninja">Home</a>
@@ -75,10 +107,11 @@
             </ul>
         </div>
     </nav>
-    <div class="parallax"></div>
+
     <h2>Groovy and Katalon Curriculum</h2>
-    <ol>
-        <li>
+
+    <div class="flex-container">
+        <div class="flex-item" onclick="toggleCheck(this)">
             <h3>Groovy Basics</h3>
             <ul>
                 <li>Learn the basics of Groovy syntax and semantics</li>
@@ -100,8 +133,8 @@
                     </ul>
                 </li>
             </ul>
-        </li>
-        <li>
+        </div>
+        <div class="flex-item" onclick="toggleCheck(this)">
             <h3>Groovy in Katalon</h3>
             <ul>
                 <li>
@@ -115,8 +148,8 @@
                 </li>
                 <li>Practice writing test scripts in Katalon using Groovy</li>
             </ul>
-        </li>
-        <li>
+        </div>
+        <div class="flex-item" onclick="toggleCheck(this)">
             <h3>Katalon Advanced Features</h3>
             <ul>
                 <li>Learn the advanced features of Katalon Studio</li>
@@ -130,8 +163,8 @@
                     advanced features
                 </li>
             </ul>
-        </li>
-        <li>
+        </div>
+        <div class="flex-item" onclick="toggleCheck(this)">
             <h3>Test Automation Best Practices</h3>
             <ul>
                 <li>Learn the best practices for test automation</li>
@@ -150,8 +183,8 @@
                 </li>
                 <li>Apply the best practices in your test automation projects</li>
             </ul>
-        </li>
-        <li>
+        </div>
+        <div class="flex-item" onclick="toggleCheck(this)">
             <h3>Katalon Forum and Community</h3>
             <ul>
                 <li>
@@ -164,6 +197,8 @@
                 </li>
                 <li>Share you knowledge and expierience with others.</li>
             </ul>
+        </div>
+        <div class="flex-item" onclick="toggleCheck(this)">
             <h3>Continous Learning</h3>
             <ul>
                 <li>Keep learning and improving your skills in Groovy and Katalon</li>
@@ -176,8 +211,20 @@
                     trends and technologies in test automation
                 </li>
             </ul>
-        </li>
-    </ol>
+        </div>
+    </div>
+
+    <script>
+        function toggleCheck(item) {
+           item.classList.toggle("checked");
+        }
+     </script>
+
+
+
+
+
+
 </body>
 
 </html>
