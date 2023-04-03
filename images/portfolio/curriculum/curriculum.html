@@ -23,7 +23,6 @@
             background-color: transparent;
         }
 
-
         h1,
         h2,
         h3,
@@ -43,26 +42,26 @@
         .flex-container {
             display: flex;
             flex-wrap: wrap;
-         }
-         .flex-item {
+        }
+
+        .flex-item {
             background-color: #f1f1f1;
             padding: 20px;
             margin: 10px;
             text-align: left;
             flex: 1;
-         }
-         .checked {
+        }
+
+        .checked {
             background-color: #888;
             color: white;
             text-decoration: line-through;
-         }
-
+        }
     </style>
     <title>Groovy and Katalon Curriculum</title>
 </head>
 
 <body>
-
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg fixed-top">
         <a class="navbar-brand" href="https://clauser.ninja">Home</a>
@@ -216,15 +215,15 @@
 
     <script>
         function toggleCheck(item) {
-           item.classList.toggle("checked");
+            item.classList.toggle("checked");
         }
-     </script>
-
-
-
-
-
-
+    </script>
+    <script>
+        window.addEventListener("beforeunload", (event) => {
+            event.preventDefault();
+            event.returnValue = "";
+        });
+    </script>
 </body>
 
 </html>
