@@ -12,6 +12,12 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
         integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
+    <script>
+        window.addEventListener("beforeunload", (event) => {
+            event.preventDefault();
+            event.returnValue = "";
+        });
+    </script>
     <style>
         html,
         body {
@@ -218,12 +224,7 @@
             item.classList.toggle("checked");
         }
     </script>
-    <script>
-        window.addEventListener("beforeunload", (event) => {
-            event.preventDefault();
-            event.returnValue = "";
-        });
-    </script>
+
 </body>
 
 </html>
