@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap");
 
 * {
   margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: "Montserrat", Times, serif;
 }
@@ -23,6 +22,18 @@ h1 {
   font-size: 40px;
   font-weight: 600;
   letter-spacing: 0.35rem;
+}
+
+.blurb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.disney-logo {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: -7px;
 }
 
 .center {
@@ -68,15 +79,6 @@ h1 {
   }
 }
 
-.disney-logo {
-  font-family: "Waltograph", Arial, sans-serif;
-  src: url("./assets/waltographUI.woff") format("woff");
-  font-size: 30px;
-  text-transform: uppercase;
-  letter-spacing: -2px;
-  vertical-align: middle;
-}
-
 .container {
   display: flex;
   justify-content: center;
@@ -90,7 +92,7 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 200px 50px;
+  gap: 100px 50px;
   padding: 100px 50px;
 }
 
@@ -105,19 +107,8 @@ h1 {
   background: white;
   border-radius: 20px;
   transition: 0.5s;
-  box-shadow: 0 35px 80px rbga(0, 0, 0, 0.15);
+  box-shadow: 0 35px 80px rgba(0, 0, 0, 0.15);
 }
-
- .cards_container .cards .content {
-  position: absolute;
-  top: 252px;
-  width: 100%;
-  height: 35px;
-  padding: 0 30px;
-  text-align: center;
-  overflow: hidden;
-  transition: 0.5s;
-} 
 
 .cards_container .cards:hover {
   height: 400px;
@@ -125,7 +116,7 @@ h1 {
 }
 
 .cards_container .cards .img-box {
-  position:absolute;
+  position: absolute;
   top: 20px;
   width: 300px;
   height: 220px;
@@ -138,7 +129,7 @@ h1 {
 .cards_container .cards:hover .img-box {
   top: -100px;
   scale: 0.75;
-  box-shadow: 0 15px 45px rgb(0, 0, 0, 0.2);
+  box-shadow: 0 15px 45px rgba(0, 0, 0, 0.2);
 }
 
 .cards_container .cards .img-box img {
@@ -150,8 +141,15 @@ h1 {
   object-fit: cover;
 }
 
-
-
+.cards_container .cards .content {
+  position: absolute;
+  top: 252px;
+  width: 100%;
+  height: 35px;
+  padding: 0 30px;
+  overflow: hidden;
+  transition: 0.5s;
+}
 
 .cards_container .cards:hover .content {
   top: 130px;
@@ -159,16 +157,18 @@ h1 {
 }
 
 .cards_container .cards .content h2 {
-  font-size: 1.5rem;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  font-size: 1.45rem;
   font-weight: 700;
   color: var(--clr);
 }
 
-.cards_container .cards .content p {
+.cards_container .cards .content {
   color: #333;
 }
 
-.cards_container .cards a {
+.cards_container .cards .content a {
   position: relative;
   top: 15px;
   display: inline-block;
@@ -179,38 +179,47 @@ h1 {
   font-weight: 500;
 }
 
-.cards_container .cards a:hover {
-  opacity: 0.8;
+.cards_container .cards .content button {
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  padding: 12px 25px;
+  text-decoration: none;
+  background: var(--clr);
+  color: white;
+  letter-spacing: 0.25rem;
+  font-weight: 500;
 }
 
-@media (max-width: 400px) {
+.cards_container .cards .content a:hover {
+  opacity: 0.8s;
+}
+
+.form-container {
+  display: flexbox;
+  margin: 24px auto;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  width: 940px;
+  zoom: 1;
+}
+
+@media (max-width: 480px) {
   .cards_container .cards {
     width: 230px;
     border-radius: 15px;
   }
-
   .cards_container .cards .img-box {
     width: 185px;
     border-radius: 10px;
   }
-
   .cards_container .cards .content p {
     font-size: 0.8rem;
   }
-
   .cards_container .cards .content a {
     font-size: 0.9rem;
   }
-}
-
-.contact-button {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #3da9fc;
-  color: #fffff3;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
 }
 
 .footer {
@@ -277,46 +286,4 @@ h1 {
 
 .social-icon__item .md {
   color: white;
-}
-
-.hide {
-  display: none;
-}
-
-.myDiv:hover+.hide {
-  display: block;
-}
-
-.examples {
-  margin-left: 5rem;
-  margin-bottom: 2rem;
-}
-
-.about-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #ef4565;
-  color: #fffff3;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-.example-btn {
-  display: inline-block;
-  padding: 10px 20px;
-  background-color: #ef4565;
-  color: #fffff3;
-  text-decoration: none;
-  font-weight: bold;
-  border-radius: 5px;
-}
-
-.example_div {
-  width: 600px;
-  height: auto;
-  margin: 2rem;
-  padding: 2rem;
-  border: solid 1px black;
-  display: none;
 }
