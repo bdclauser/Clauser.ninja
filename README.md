@@ -19,7 +19,7 @@ In my free time, I enjoy visiting Disney World to recharge my creative energy an
 ![Cloned Google Home Page](images/portfolio/google/google_clone.png)
 ![Smoke Sign of Clauser](images/portfolio/smoke/port1.gif)
 ![Neon Button](images/portfolio/neon/neon_screenshot.png)
-![Steaming Cup of Coffee Animation](images/portfolio/animation_example/`hot coffee.png`)
+![Steaming Cup of Coffee Animation](images/portfolio/animation_example/hot%20coffee.png)
 ![Login Splash Screen](images/portfolio/login_example/login_thumb.png)
 ![First Getting Started Page Design](images/portfolio/getting_started/gettingstartedactualscreenshot.jpeg)
 ![Self-made Curriculum](images/portfolio/curriculum/curriculum_image.jpg)
