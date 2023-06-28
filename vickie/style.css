@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", Times, serif;
+}
+
+body {
+  background-color: #d8eefe;
+}
+
+p,
+a {
+  color: #094067;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
+}
+
+h1 {
+  color: #094067;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 0.35rem;
+}
+
+.center {
+  max-width: 180px;
+  height: auto;
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+}
+
+.card {
+  width: 200px;
+  height: auto;
+  background-color: #030029;
+  position: relative;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  width: 150px;
+  height: 140%;
+  background-image: linear-gradient(180deg, #ef4565, #3da9fc);
+  animation: rotate 3s linear infinite;
+  transform-origin: center;
+}
+
+.card::after {
+  content: "";
+  position: absolute;
+  inset: 8px;
+  background-color: #030029;
+  border-radius: inherit;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.disney-logo {
+  font-family: "Waltograph", Arial, sans-serif;
+  src: url("./assets/waltographUI.woff") format("woff");
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  vertical-align: middle;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.cards_container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 200px 50px;
+  padding: 100px 50px;
+}
+
+.cards_container .cards {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 350px;
+  max-width: 100%;
+  height: 300px;
+  background: white;
+  border-radius: 20px;
+  transition: 0.5s;
+  box-shadow: 0 35px 80px rbga(0, 0, 0, 0.15);
+}
+
+ .cards_container .cards .content {
+  position: absolute;
+  top: 252px;
+  width: 100%;
+  height: 35px;
+  padding: 0 30px;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.5s;
+} 
+
+.cards_container .cards:hover {
+  height: 400px;
+  cursor: pointer;
+}
+
+.cards_container .cards .img-box {
+  position:absolute;
+  top: 20px;
+  width: 300px;
+  height: 220px;
+  background: #333;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+.cards_container .cards:hover .img-box {
+  top: -100px;
+  scale: 0.75;
+  box-shadow: 0 15px 45px rgb(0, 0, 0, 0.2);
+}
+
+.cards_container .cards .img-box img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+.cards_container .cards:hover .content {
+  top: 130px;
+  height: 250px;
+}
+
+.cards_container .cards .content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--clr);
+}
+
+.cards_container .cards .content p {
+  color: #333;
+}
+
+.cards_container .cards a {
+  position: relative;
+  top: 15px;
+  display: inline-block;
+  padding: 12px 25px;
+  text-decoration: none;
+  background: var(--clr);
+  color: white;
+  font-weight: 500;
+}
+
+.cards_container .cards a:hover {
+  opacity: 0.8;
+}
+
+@media (max-width: 400px) {
+  .cards_container .cards {
+    width: 230px;
+    border-radius: 15px;
+  }
+
+  .cards_container .cards .img-box {
+    width: 185px;
+    border-radius: 10px;
+  }
+
+  .cards_container .cards .content p {
+    font-size: 0.8rem;
+  }
+
+  .cards_container .cards .content a {
+    font-size: 0.9rem;
+  }
+}
+
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #3da9fc;
+  color: #fffff3;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background: #282828;
+  color: #fffff3;
+  min-height: 60px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.social-icon,
+.menu {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.social-icon__item,
+.menu__item {
+  list-style: none;
+}
+
+.social-icon__link {
+  font-size: 2rem;
+  color: #fffe;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+}
+
+.social-icon__link:hover {
+  transform: translateY(-10px);
+}
+
+.menu__link {
+  font-size: 1.2rem;
+  color: #fffe;
+  margin: 0 10px;
+  display: inline-block;
+  transition: 0.5s;
+  text-decoration: none;
+  opacity: 0.75s;
+  font-weight: 300;
+}
+
+.menu__link:hover {
+  opacity: 1;
+}
+
+.footer p {
+  color: #fffe;
+  margin: 10px 0 10px 0;
+  font-size: smaller;
+  font-weight: 300;
+}
+
+.social-icon__item .md {
+  color: white;
+}
+
+.hide {
+  display: none;
+}
+
+.myDiv:hover+.hide {
+  display: block;
+}
+
+.examples {
+  margin-left: 5rem;
+  margin-bottom: 2rem;
+}
+
+.about-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ef4565;
+  color: #fffff3;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.example-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ef4565;
+  color: #fffff3;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.example_div {
+  width: 600px;
+  height: auto;
+  margin: 2rem;
+  padding: 2rem;
+  border: solid 1px black;
+  display: none;
+}
