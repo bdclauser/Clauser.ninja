@@ -48,13 +48,11 @@ footer {
   text-decoration: underline;
 }
 
-
 #gs_wrapper h2 {
   color: black;
   font-size: 34px;
   font-weight: 500;
 }
-
 
 #gs_wrapper footer {
   padding-left: 1rem;
@@ -82,7 +80,6 @@ footer {
 
 /* need to do a media for phone @ 4vw */
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
-
   #gs_wrapper h3,
   #gs_wrapper .panel-title,
   #gs_wrapper .gs_title {

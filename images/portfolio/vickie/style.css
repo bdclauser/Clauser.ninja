@@ -150,7 +150,7 @@ h1 {
   overflow: hidden;
   transition: 0.5s;
   text-overflow: ellipsis;
-  color: #333
+  color: #333;
 }
 
 /* .cards_container .cards .content {
