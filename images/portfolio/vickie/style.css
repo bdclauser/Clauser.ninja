@@ -149,11 +149,14 @@ h1 {
   padding: 0 30px;
   overflow: hidden;
   transition: 0.5s;
+
+  text-overflow: ellipsis;
 }
 
+
 .cards_container .cards:hover .content {
-  top: 130px;
-  height: 250px;
+  top: 110px;
+  height: 280px;
 }
 
 .cards_container .cards .content h2 {
@@ -195,7 +198,9 @@ h1 {
   opacity: 0.8s;
 }
 
-.form-container {
+
+ .form-container {
+  padding-top: 5rem;
   display: flexbox;
   margin: 24px auto;
   height: 100vh;
@@ -203,7 +208,7 @@ h1 {
   align-items: center;
   width: 940px;
   zoom: 1;
-}
+} 
 
 @media (max-width: 480px) {
   .cards_container .cards {
