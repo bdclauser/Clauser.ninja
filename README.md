@@ -23,7 +23,7 @@ In my free time, I enjoy visiting Disney World to recharge my creative energy an
 ![Login Splash Screen](images/portfolio/login_example/login_thumb.png)
 ![First Getting Started Page Design](images/portfolio/getting_started/gettingstartedactualscreenshot.jpeg)
 ![Self-made Curriculum](images/portfolio/curriculum/curriculum_image.jpg)
-![Vickie Project](vickie/index.html)
+![Vickie Project](images/portfolio/vickie/vickie_screen.png)
 
 ## Understanding Cerebral Palsy
 
