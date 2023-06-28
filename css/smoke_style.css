@@ -9,7 +9,7 @@ section {
   overflow: hidden;
 }
 
-section:before {
+section::before {
   content: "";
   position: absolute;
   top: 0;

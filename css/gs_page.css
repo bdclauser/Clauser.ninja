@@ -21,9 +21,13 @@
   margin-bottom: 2rem;
 }
 
+footer {
+  font-size: 14px;
+}
+
 #gs_wrapper {
   margin-top: 4em;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 
   /*     background: rgb(238, 37, 92);
     background: -moz-linear-gradient(133deg,
@@ -44,11 +48,13 @@
   text-decoration: underline;
 }
 
+
 #gs_wrapper h2 {
   color: black;
   font-size: 34px;
   font-weight: 500;
 }
+
 
 #gs_wrapper footer {
   padding-left: 1rem;
@@ -76,6 +82,7 @@
 
 /* need to do a media for phone @ 4vw */
 @media only screen and (min-device-width: 320px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) {
+
   #gs_wrapper h3,
   #gs_wrapper .panel-title,
   #gs_wrapper .gs_title {
@@ -135,10 +142,6 @@
 .float-right {
   float: right;
   width: 640px;
-}
-
-footer {
-  font-size: 14px;
 }
 
 #gs_wrapper footer p {

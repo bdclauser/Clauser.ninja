@@ -149,13 +149,13 @@ h1 {
   padding: 0 30px;
   overflow: hidden;
   transition: 0.5s;
-
   text-overflow: ellipsis;
+  color: #333
 }
 
-.cards_container .cards .content {
+/* .cards_container .cards .content {
   color: #333;
-}
+} */
 
 .cards_container .cards:hover .content {
   top: 110px;
