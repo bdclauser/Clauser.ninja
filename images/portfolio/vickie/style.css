@@ -153,6 +153,9 @@ h1 {
   text-overflow: ellipsis;
 }
 
+.cards_container .cards .content {
+  color: #333;
+}
 
 .cards_container .cards:hover .content {
   top: 110px;
@@ -165,10 +168,6 @@ h1 {
   font-size: 1.45rem;
   font-weight: 700;
   color: var(--clr);
-}
-
-.cards_container .cards .content {
-  color: #333;
 }
 
 .cards_container .cards .content a {
@@ -198,8 +197,7 @@ h1 {
   opacity: 0.8s;
 }
 
-
- .form-container {
+.form-container {
   padding-top: 5rem;
   display: flexbox;
   margin: 24px auto;
@@ -208,20 +206,23 @@ h1 {
   align-items: center;
   width: 940px;
   zoom: 1;
-} 
+}
 
 @media (max-width: 480px) {
   .cards_container .cards {
     width: 230px;
     border-radius: 15px;
   }
+
   .cards_container .cards .img-box {
     width: 185px;
     border-radius: 10px;
   }
+
   .cards_container .cards .content p {
     font-size: 0.8rem;
   }
+
   .cards_container .cards .content a {
     font-size: 0.9rem;
   }
