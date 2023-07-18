@@ -12,6 +12,8 @@
 
 scratch*.html
 scratch.*
+scratch2.html
+
 
 ### Jekyll ###
 _site/
