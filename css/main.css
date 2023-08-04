@@ -140,7 +140,7 @@ body {
   padding: 6em 1em;
   position: relative;
   background: linear-gradient(to right, #000428 0%, #004e92 100%);
-  height: 115vh;
+  height: 130vh;
 }
 
 .portfolio h1,
@@ -166,12 +166,10 @@ h2 {
   position: relative;
   height: 100vh;
   background-color: #85ffbd;
-  background-image: linear-gradient(
-    45deg,
-    #85ffbd 0%,
-    #fff 99%,
-    #fffb7d 100%
-  );
+  background-image: linear-gradient(45deg,
+      #85ffbd 0%,
+      #fff 99%,
+      #fffb7d 100%);
 }
 
 .blog h1 {
@@ -184,12 +182,10 @@ h2 {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(122, 0, 82, 1) 50%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(2, 0, 36, 1) 0%,
+      rgba(122, 0, 82, 1) 50%,
+      rgba(0, 212, 255, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
