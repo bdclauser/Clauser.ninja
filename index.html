@@ -12,9 +12,8 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css"
     integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous" />
   <!-- JavaScript files -->
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
-    integrity="sha256-whL0tQWoY1Ku1iskqPFvmZ+CHsvmRWx/PIoEvIeWh4I=" crossorigin="anonymous"></script>
-
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha256-whL0tQWoY1Ku1iskqPFvmZ+CHsvmRWx/PIoEvIeWh4I=" crossorigin="anonymous"></script>
+  
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
@@ -23,57 +22,62 @@
     crossorigin="anonymous"></script>
 </head>
 
+<!-- I really need to switch this to a MVC -->
+
 <body>
   <!-- navbar -->
   <nav class="navbar navbar-expand-lg fixed-top">
     <a class="navbar-brand" href="#">Home</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse" id="navbarContent">
       <ul class="navbar-nav mr-4">
         <li class="nav-item">
-          <a class="nav-link" data-value="about" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-value="portfolio" href="#">Portfolio</a>
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">CP Awareness</a>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" data-value="contact" href="#">Contact</a>
-        </li>
-        <li class="nav-item">
-          <a href="https://github.com/bdclauser" data-value="github" class="nav-link" target="_blank">
-            <i class="fab fa-github" aria-hidden="true"></i></a>
-        </li>
-        <li class="nav-item">
-          <a href="https://stackoverflow.com/users/18369883/pzljug" data-value="stackoverflow" class="nav-link"
-            target="_blank"><i class="fab fa-stack-overflow"></i>
+          <a href="https://github.com/bdclauser" class="nav-link" target="_blank" rel="noopener"
+            aria-label="Visit my GitHub profile">
+            <i class="fab fa-github"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a href="https://www.linkedin.com/in/brian-clauser/" data-value="linkedin" class="nav-link" target="_blank">
-            <i class="fab fa-linkedin" aria-hidden="true"></i>
+          <a href="https://stackoverflow.com/users/18369883/pzljug" class="nav-link" target="_blank" rel="noopener"
+            aria-label="Visity my Stack Overflow profile">
+            <i class="fab fa-stack-overflow"></i>
           </a>
         </li>
         <li class="nav-item">
-          <a href="https://www.facebook.com/brian.d.clauser/" data-value="facebook" class="nav-link" target="_blank">
-            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+          <a href="https://www.linkedin.com/in/brian-clauser/" class="nav-link" target="_blank" rel="noopener"
+            aria-label="Visit my LinkedIn profile">
+            <i class="fab fa-linkedin"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="https://www.facebook.com/brian.d.clauser/" class="nav-link" target="_blank" rel="noopener"
+            aria-label="Visit by Facebook page">
+            <i class="fab fa-facebook-square"></i>
           </a>
         </li>
       </ul>
     </div>
   </nav>
+
   <!-- header -->
 
-  <header class="header">
-    <div class="overlay"></div>
-    <div class="description sr-only">
-      <h1>Hello,</h1>
-      <p>Welcome To My Sidestreet on the Information Highway</p>
-      <a class="btn btn-outline-secondary btn-lg nav-link" href="#about">See More</a>
-    </div>
-  </header>
   <header class="header">
     <div class="overlay"></div>
     <div class="description sr-only">
@@ -89,45 +93,40 @@
       <h2 class="text-center">About Me</h2>
       <div class="row">
         <div class="col-lg-4 col-md-4 col-sm-12">
-          <img src="images/team-3.jpg" class="img-fluid" alt="picture of proud father with daughter"
-            style="height: auto" />
+          <img src="images/team-3.jpg" class="img-fluid" alt="picture of proud father with daughter" style="height:auto" />
           <span class="text-center d-block d-sm-none">I'm a proud papa of the cutest little girl and when I'm not busy
-            smothering her with hugs and tickles, I'm whipping up amazing
-            websites and apps that make the internet a better place!</span>
+            smothering her with hugs and tickles, I'm whipping up amazing websites and apps that make the internet a
+            better place!</span>
         </div>
         <div class="col-lg-8 col-md-8 col-sm-12 desc">
           <h3>Brian Clauser</h3>
           <p>
-            As an experienced Quality Assurance professional, I specialize in
-            testing and ensuring the quality of Web Applications. I have a
-            strong attention to detail and meticulously work to ensure that
-            every aspect of the application is functional and meets high
-            standards of quality.
+            As an experienced Quality Assurance professional, I specialize in testing and ensuring the quality of Web
+            Applications. I have a strong attention to detail and meticulously work to ensure that every aspect of the
+            application is functional and meets high standards of quality.
           </p>
           <p>
-            In addition to my expertise in Quality Assurance, I also have
-            skills in front-end web design. I have experience creating window
-            applications, interactive dashboards, and data visualizations that
-            are both visually appealing and functional.
+            In addition to my expertise in Quality Assurance, I also have skills in front-end web design. I have
+            experience creating window applications, interactive dashboards, and data visualizations that are both
+            visually appealing and functional.
           </p>
           <p>
-            I stay up-to-date with the latest technologies and best practices
-            in the field of web development to provide innovative designs that
-            meet your unique needs. I have a passion for delivering
-            exceptional work and am committed to providing designs that exceed
-            your expectations.
+            I stay up-to-date with the latest technologies and best practices in the field of web development to provide
+            innovative designs that meet your unique needs. I have a passion for delivering exceptional work and am
+            committed to providing designs that exceed your expectations.
           </p>
           <p>
-            In my free time, I enjoy visiting Disney World to recharge my
-            creative energy and escape from the stresses of work.
+            In my free time, I enjoy visiting Disney World to recharge my creative energy and escape from the stresses
+            of work. 
           </p>
           <span class="text-center d-none d-sm-block">I'm a proud papa of the cutest little girl and when I'm not busy
-            smothering her with hugs and tickles, I'm whipping up amazing
-            websites and apps that make the internet a better place!</span>
+            smothering her with hugs and tickles, I'm whipping up amazing websites and apps that make the internet a
+            better place!</span>
         </div>
       </div>
     </div>
   </section>
+  
 
   <!-- portfolio section-->
   <section id="portfolio" class="portfolio">
@@ -179,11 +178,15 @@
           </a>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12">
-          <a href="images/portfolio/vickie/index.html" title="Personal page created for freelance writer.">
+          <a href="images/portfolio/vickie/index.html"
+            title="Self-made curriculum to track Automation using Katalon and Groovy.">
             <img class="img-fluid" alt=" screenshot of actual project results"
               src="/images/portfolio/vickie/vickie_screen.png" />
           </a>
         </div>
+
+
+        
       </div>
     </div>
   </section>
@@ -197,10 +200,10 @@
           <p>
             Cerebral Palsy (CP) is a neurological disorder that affects
             movement and coordination. It is caused by damage to the brain,
-            usually before or during birth, and can range from mild to severe
-            in its impact on the individual. CP is a life-long condition, but
-            with proper support and treatment, many people with CP can live
-            full and fulfilling lives.
+            usually before or during birth, and can range from mild to
+            severe in its impact on the individual. CP is a life-long
+            condition, but with proper support and treatment, many people
+            with CP can live full and fulfilling lives.
           </p>
         </div>
         <div class="col-sm-12 col-md-4 col-lg-4">
@@ -211,7 +214,8 @@
               utensils
             </li>
             <li>
-              Difficulty with gross motor skills such as walking or balancing
+              Difficulty with gross motor skills such as walking or
+              balancing
             </li>
             <li>Stiff or spastic movements</li>
             <li>Difficulty with speech and communication</li>
@@ -235,13 +239,15 @@
               Medications to manage symptoms such as spasticity or seizures
             </li>
             <li>
-              Surgery to correct physical deformities or to relieve spasticity
+              Surgery to correct physical deformities or to relieve
+              spasticity
             </li>
           </ul>
         </div>
       </div>
     </div>
   </section>
+
 
   <!-- Contact form -->
   <div class="contact" id="contact">
@@ -271,6 +277,7 @@
       </div>
     </form>
   </div>
+
 
   <footer>
     <p>Copyright: <span id="current-year"></span> &COPY;</p>
