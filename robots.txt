@@ -1,0 +1,3 @@
+User-agent: *
+Dissallow: /images/portfolio/vickie
+Dissallow: /images/portfolio/vickie/*
