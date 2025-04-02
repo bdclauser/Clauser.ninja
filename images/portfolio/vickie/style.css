@@ -366,8 +366,9 @@ h1 {
 .footer p {
   color: #fffe;
   margin: 10px 0 10px 0;
-  font-size: smaller;
+  font-size: 1rem;
   font-weight: 300;
+  line-height: 1.5;
 }
 
 .social-icon__item .md {
