@@ -144,7 +144,7 @@ h1, h2, h3, h4, h5, h6, a {
   position: relative;
   background-color: #85ffbd;
   background-image: linear-gradient(45deg, #85ffbd 0%, #fff 99%, #fffb7d 100%);
-  margin-bottom: 50px;
+  /*margin-bottom: .75rem;*/
 }
 
 .blog h1 {
@@ -223,11 +223,11 @@ h1, h2, h3, h4, h5, h6, a {
 
 /* Contact Section */
 .contact {
-  margin-top: 20rem;
+  margin-top: 5rem;
 }
 
 .contact-form {
-  margin: 6em 0;
+  margin: 3em 0;
   position: relative;
 }
 
@@ -279,6 +279,9 @@ h1, h2, h3, h4, h5, h6, a {
 
   .blog h2 {
     font-size: 18px;
+  }
+  .contact {
+    margin-bottom: 1.5rem;
   }
 }
 
