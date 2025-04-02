@@ -129,13 +129,6 @@ h1 {
   text-align: center;
 }
 
-@media (min-width: 768px) {
-  .container {
-    flex-direction: row;
-    justify-content: space-around;
-  }
-}
-
 .cards_container {
   position: relative;
   display: flex;
@@ -278,7 +271,24 @@ h1 {
   .cards_container .cards .content a {
     font-size: 0.9rem;
   }
+
+  .footer {
+    padding: 15px;
+  }
+
+  .menu__link {
+    font-size: 0.9rem;
+  }
+
+  .footer p {
+    font-size: 0.85rem;
+  }
+
+  .social-icon__link {
+    font-size: 1.3rem;
+  }
 }
+
 
 @media (max-width: 768px) {
   h1 {
@@ -291,6 +301,35 @@ h1 {
   p, a {
     font-size: 14px;
   }
+  .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .menu {
+    flex-direction: column;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .menu__link {
+    font-size: 1rem;
+    margin: 5px 0;
+  }
+
+  .footer p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+
+  .social-icon {
+    gap: 15px;
+  }
+
+  .social-icon__link {
+    font-size: 1.5rem;
+  }
+
 }
 
 .footer {
@@ -313,18 +352,6 @@ h1 {
   flex-wrap: wrap;
   justify-content: center;
   gap: 10px;
-}
-
-@media (max-width: 768px) {
-  .menu {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .menu__link {
-    font-size: 16px;
-  }
-  
 }
 
 .social-icon {
