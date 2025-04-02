@@ -1,21 +1,13 @@
-@import url("https://fonts.googleapis.com/css?family=Raleway");
-@import url("https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&family=Gowun+Dodum&display=swap");
 
-body {
+body, html {
   padding: 0;
   margin: 0;
+  font-family: "Gowun Dodum", sans-serif;
   background-color: #223651;
 }
 
-html,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-a,
-body {
+h1, h2, h3, h4, h5, h6, a {
   font-family: "Gowun Dodum", sans-serif;
 }
 
@@ -32,15 +24,10 @@ body {
 
 .nav-link {
   margin-right: 1em !important;
-  color: white;
 }
 
-.nav-link:hover {
-  background: #cbb26a;
-  color: #131e2d;
-}
-
-.navbar-brand:hover a:hover {
+.nav-link:hover,
+.navbar-brand:hover {
   background: #cbb26a;
   color: #131e2d;
 }
@@ -53,7 +40,7 @@ body {
   background: white !important;
 }
 
-/* header style */
+/* Header Section */
 .header {
   position: relative;
   background-image: url("../images/84530735.png");
@@ -84,7 +71,7 @@ body {
 
 .description p {
   color: #be9e44;
-  font-size: 20px;
+  font-size: 18px;
   width: 60%;
   line-height: 1.5;
 }
@@ -95,8 +82,9 @@ body {
   color: #be9e44;
 }
 
+/* About Section */
 .about {
-  margin: 0 0;
+  margin: 0;
   padding: 6em 1em;
   position: relative;
   background: #fabb00;
@@ -111,13 +99,8 @@ body {
 .about img {
   height: 100%;
   width: 100%;
+  max-width: 100%;
   border-radius: 50%;
-}
-
-.about span {
-  display: block;
-  position: absolute;
-  padding-top: 1rem;
 }
 
 .about .desc {
@@ -136,40 +119,32 @@ body {
 
 /* Portfolio */
 .portfolio {
-  margin: 0 0;
+  margin: 0;
   padding: 6em 1em;
   position: relative;
   background: linear-gradient(to right, #000428 0%, #004e92 100%);
-  height: 130vh;
+  width: 100%;
 }
 
-.portfolio h1,
-h2 {
-  color: #f2f2f2;
-  margin: 2em;
-}
-
-.portfolio h2 {
+.portfolio h1, .portfolio h2, .contact h1, .contact h2, footer, footer p, .blog p {
   color: white;
+  margin: 2em;
+  mix-blend-mode: difference;
 }
 
 .portfolio img {
-  height: 15rem;
+  height: auto;
   width: 100%;
   margin: 1em;
 }
 
-/* blog style */
-
+/* Blog Style */
 .blog {
   padding: 6em 1em;
   position: relative;
-  height: 100vh;
   background-color: #85ffbd;
-  background-image: linear-gradient(45deg,
-      #85ffbd 0%,
-      #fff 99%,
-      #fffb7d 100%);
+  background-image: linear-gradient(45deg, #85ffbd 0%, #fff 99%, #fffb7d 100%);
+  margin-bottom: 50px;
 }
 
 .blog h1 {
@@ -182,10 +157,7 @@ h2 {
   margin-bottom: 2rem;
   padding-bottom: 2rem;
   background: rgb(2, 0, 36);
-  background: linear-gradient(90deg,
-      rgba(2, 0, 36, 1) 0%,
-      rgba(122, 0, 82, 1) 50%,
-      rgba(0, 212, 255, 1) 100%);
+  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(122, 0, 82, 1) 50%, rgba(0, 212, 255, 1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -208,6 +180,11 @@ h2 {
   padding: 1em;
 }
 
+.blog .col-md-4 {
+  margin-bottom: 20px;
+}
+
+/* Team Section */
 .team {
   margin: 4em 0;
   position: relative;
@@ -244,8 +221,9 @@ h2 {
   border-top-right-radius: 0;
 }
 
+/* Contact Section */
 .contact {
-  margin-top: 2rem;
+  margin-top: 20rem;
 }
 
 .contact-form {
@@ -282,4 +260,54 @@ h2 {
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
   border: 0;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 1rem;
+  }
+
+  .header {
+    height: 60vh;
+  }
+
+  .portfolio img {
+    width: 100%;
+    height: auto;
+  }
+
+  .blog h2 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 576px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .about img {
+    width: 80%;
+    height: auto;
+  }
+
+  .portfolio img {
+    width: 100%;
+    height: auto;
+  }
+
+  .description p {
+    font-size: 16px;
+  }
+
+  .header {
+    height: 50vh;
+  }
+}
+
+@media (min-width: 992px) {
+  .about .col-lg-4 {
+    order: -1;
+  }
 }
