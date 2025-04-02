@@ -68,6 +68,13 @@ h2 {
   justify-content: center;
 }
 
+.blurb p {
+  margin: auto;
+  text-align: center;
+  word-wrap: break-word;
+  max-width: 100%;
+}
+
 .disney-logo {
   display: inline-block;
   vertical-align: middle;
@@ -383,6 +390,11 @@ h2 {
   p, a {
     font-size: 14px;
   }
+
+  .blurb p {
+    font-size: 1.2rem;
+  }
+
   .header-container h1 {
     font-size: 28px;
   }
@@ -404,14 +416,19 @@ h2 {
   }
 
   .menu {
+    display: flex;
     flex-direction: column;
-    gap: 10px;
     align-items: center;
+    width: 100%
   }
 
+  .menu_item {
+    margin: 10px 0;
+  }
   .menu__link {
+    display: block;
     font-size: 1rem;
-    margin: 5px 0;
+    text-align: center;
   }
 
   footer {
