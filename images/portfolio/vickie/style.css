@@ -28,8 +28,15 @@ a {
 h1 {
   color: #094067;
   font-size: 40px;
-  font-weight: 00;
+  font-weight: 700;
   letter-spacing: 0.35rem;
+}
+
+h2 {
+  font-size: 28px;
+  color: #094067;
+  font-weight: 400;
+  letter-spacing: 0.25rem;
 }
 
 #about_content p {
@@ -120,13 +127,33 @@ h1 {
 }
 
 .container {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 10vh;
   padding: 1rem;
-  text-align: center;
+  text-align: center; */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 900px;
+}
+
+.container ul {
+  list-style-type: none;
+}
+
+.container h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #094067;
+  margin-bottom: 10px;
+}
+
+.container ul li {
+  font-size: 16px;
+  color: #094067;
+  margin-bottom: 5px;
 }
 
 .cards_container {
@@ -301,14 +328,29 @@ h1 {
   p, a {
     font-size: 14px;
   }
+  .header-container h1 {
+    font-size: 28px;
+  }
+  .header-container h2 {
+    font-size: 22px;
+  }
+
   .container {
     flex-direction: row;
     justify-content: space-around;
   }
 
+  .container h3 {
+    font-size: 20px;
+  }
+
+  .container ul li {
+    font-size: 14px;
+  }
+
   .menu {
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
     align-items: center;
   }
 
@@ -408,4 +450,9 @@ h1 {
 
 .social-icon__item .md {
   color: white;
+}
+
+.header-container {
+  text-align: center;
+  margin-top: 2.5rem;
 }
