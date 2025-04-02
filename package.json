@@ -1,0 +1,24 @@
+{
+  "name": "clauser.ninja",
+  "version": "1.0.0",
+  "description": "My personal site I use for practice and creating a portfolio of sorts.",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdclauser/Clauser.ninja.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdclauser/Clauser.ninja/issues"
+  },
+  "homepage": "https://github.com/bdclauser/Clauser.ninja#readme"
+}
