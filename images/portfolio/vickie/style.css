@@ -317,9 +317,12 @@ h1 {
     margin: 5px 0;
   }
 
+  footer {
+    padding: 20px;
+  }
+
   .footer p {
     font-size: 0.9rem;
-    margin: 5px 0;
   }
 
   .social-icon {
@@ -337,7 +340,6 @@ h1 {
   width: 100%;
   background: #282828;
   color: #fffff3;
-  min-height: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
