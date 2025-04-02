@@ -287,7 +287,6 @@ h1 {
 
 .footer {
   position: relative;
-  bottom: 0;
   width: 100%;
   background: #282828;
   color: #fffff3;
@@ -298,6 +297,7 @@ h1 {
   align-items: center;
   padding: 10px;
   text-align: center;
+  margin-top: auto;
 }
 
 .menu {
