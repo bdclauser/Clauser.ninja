@@ -4,9 +4,8 @@
   "description": "My personal site I use for practice and creating a portfolio of sorts.",
   "main": "index.js",
   "dependencies": {
-    "bootstrap": "^4.3.1"
+    "bootstrap": "^5.3.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
