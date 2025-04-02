@@ -3,15 +3,16 @@
 * {
   margin: 0;
   box-sizing: border-box;
-  font-family: "Montserrat", Times, serif;
 }
 
 html, body {
   height: 100%;
   margin: 0;
+  padding: 0;
 }
 
 body {
+  font-family: "Montserrat", Times, serif;
   display: flex;
   flex-direction: column;
   min-height: 100%;
@@ -27,9 +28,10 @@ a {
 
 h1 {
   color: #094067;
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
   letter-spacing: 0.35rem;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
@@ -134,9 +136,10 @@ h2 {
   height: 10vh;
   padding: 1rem;
   text-align: center; */
-  padding: 20px;
-  margin: 20px auto;
-  max-width: 900px;
+  width: 80%;
+  padding: 2rem 1rem;
+  margin: 0 auto;
+  max-width: 1200px;
 }
 
 .container ul {
@@ -270,14 +273,66 @@ h2 {
 
 
 .form-container {
-  padding-top: 5rem;
+  background-color: #d8eefe;
+  border-radius: 8px;
+  padding: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+
+  /* padding-top: 5rem;
   display: flexbox;
   margin: 24px auto;
   height: 100vh;
   justify-content: center;
   align-items: center;
   width: 940px;
-  zoom: 1;
+  zoom: 1; */
+}
+
+#fs-frm {
+  width: 100%;
+}
+
+#fs-frm input,
+#fs-frm textarea {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#fs-frm input:focus,
+#fs-frm textarea:focus {
+    outline: none;
+    border-color: #5fa8d1;
+    background-color: #fafafa;
+}
+
+#fs-frm label {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+#fs-frm input[type="submit"] {
+  background-color: #5fa8d1;
+  color: white;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+#fs-frm input[type="submit"]:hover {
+  background-color: #4a8bb8;
 }
 
 @media (max-width: 480px) {
@@ -378,17 +433,26 @@ h2 {
 }
 
 .footer {
-  position: relative;
-  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background: #282828;
   color: #fffff3;
-  display: flex;
+  padding: 10px;
+  margin-top: auto;
+
+ /* 
+  position: relative;
+  width: 100%;  
   flex-wrap: wrap;
+  text-align: center;*/
+  
+}
+
+.footer .social-icon, .footer .menu {
+  display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
-  text-align: center;
-  margin-top: auto;
 }
 
 .menu {
@@ -442,10 +506,11 @@ h2 {
 
 .footer p {
   color: #fffe;
-  margin: 10px 0 10px 0;
+  margin: 0 0;
   font-size: 1rem;
   font-weight: 300;
   line-height: 1.5;
+  padding-right: 20px;
 }
 
 .social-icon__item .md {
@@ -455,4 +520,8 @@ h2 {
 .header-container {
   text-align: center;
   margin-top: 2.5rem;
+}
+
+body, h1, p, .content, .card, .footer {
+  font-family: 'Montserrat', sans-serif !important;
 }
